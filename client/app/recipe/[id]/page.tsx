@@ -120,7 +120,7 @@ export default function RecipePage({ params }: RecipePageProps) {
         <div className="max-w-4xl mx-auto">
           <Link href="/" className="inline-flex items-center space-x-2 text-orange-600 hover:text-orange-700 mb-6">
             <ArrowLeft className="w-5 h-5" />
-            <span>Back to Recipe Index</span>
+            <span>Back to All Recipes</span>
           </Link>
 
           <Link href="/" className="flex items-center space-x-2">
@@ -162,22 +162,6 @@ export default function RecipePage({ params }: RecipePageProps) {
           </div>
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-[#f5f1eb] border-t border-gray-200 px-6 py-12">
-        <div className="max-w-4xl mx-auto text-center">
-          <Link href="/" className="flex items-center justify-center space-x-2 mb-6">
-            <h2 className="text-3xl font-bold text-blue-600" style={{ fontFamily: "cursive" }}>
-              The Butter Table
-            </h2>
-          </Link>
-
-          <div className="text-sm text-gray-600">
-            <p>📍 Brooklyn, New York</p>
-            <p className="mt-2">Copyright © 2024 The Butter Table. All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
